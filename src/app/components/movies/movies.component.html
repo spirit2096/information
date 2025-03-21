@@ -1,0 +1,41 @@
+<p-carousel [value]="moviesStore.allNowPlaying().results" [numVisible]="3" [numScroll]="3" [circular]="true"
+    [responsiveOptions]="responsiveOptions">
+    <ng-template let-product #item>
+        <div class="border border-surface rounded-border m-2 p-4">
+
+            <div class="mb-4">
+                <div class="relative mx-auto">
+                    <img [src]="baseUrlImage + product.poster_path" [alt]="product.title"
+                        class="w-full rounded-border" />
+                </div>
+            </div>
+
+            <div class="mb-4 font-medium">
+                {{ product.title }}
+            </div>
+            <div class="grid col-12 text-center">
+                <div class="col-12">
+                    <span>
+                        <p-button icon="pi pi-eye" severity="secondary" [outlined]="true" />
+                    </span>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</p-carousel>
+
+
+<div class="grid col-12">
+    <div class="col-3 text-center bg-primary">
+        heldasdjaksjdkasd
+    </div>
+    <div class="col-3 text-center">
+        heldasdjaksjdkasd
+    </div>
+    <div class="col-3 text-center">
+        heldasdjaksjdkasd
+    </div>
+    <div class="col-3 text-center">
+        heldasdjaksjdkasd
+    </div>
+</div>
