@@ -1,3 +1,66 @@
-<div class="layout-wrapper bg-gray-900">
+<div class="layout-wrapper bg-gray-900 h-screen flex flex-col items-center justify-center text-white">
+  <h1 class="text-3xl mb-8">Animación con Anime.js</h1>
+  
+  <div class="svg-container">
+    <svg viewBox="0 0 800 200" width="600" height="200">
+      <!-- Iniciales SPIRIT con trazos más elaborados -->
+      <path id="spirit-path" 
+            d="M 50,50 C 70,20 90,20 120,50 C 140,70 120,130 90,150 C 70,160 50,150 50,150
+               M 180,50 L 180,150 M 190,50 L 190,150 M 200,100 L 170,100
+               
+               M 230,50 C 250,20 270,20 300,50 C 320,70 300,130 270,150 C 250,160 230,150 230,150
+               
+               M 330,50 L 330,150 M 340,50 L 340,150
+               
+               M 370,50 L 370,150 M 380,50 L 380,150 M 395,50 L 355,50
+               
+               M 430,50 L 430,150 M 440,50 L 440,150
+               
+               M 480,50 L 480,150 M 490,50 L 490,150 M 505,50 L 465,50
+               
+               M 520,50 C 540,20 560,20 590,50 C 610,70 590,130 560,150 C 540,160 520,150 520,150"
+            fill="none" 
+            stroke="#4A86E8" 
+            stroke-width="5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-dasharray="2500"
+            stroke-dashoffset="2500"/>
+    </svg>
+  </div>
 
+  <div class="controls mt-8 flex gap-6">
+    <button (click)="animatePath()" 
+            class="px-6 py-2 bg-blue-600 rounded-md hover:bg-blue-700 transition-colors">
+      Animar SPIRIT
+    </button>
+    
+    <button (click)="playAnimation()" 
+            class="px-6 py-2 bg-purple-600 rounded-md hover:bg-purple-700 transition-colors">
+      Animación Formas
+    </button>
+  </div>
+
+  <div class="animation-container relative mt-8">
+    <!-- Cuadrados para la animación -->
+    <div *ngFor="let i of [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]" 
+         class="square w-16 h-16 bg-blue-500 absolute"
+         [style.opacity]="0.2 + (i * 0.08)">
+    </div>
+  </div>
+
+  <!-- Contenedor específico para círculos, separado del container principal -->
+  <div class="circles-container mt-4 flex justify-center">
+    <div *ngFor="let i of [0, 1, 2, 3, 4]" 
+         class="circle w-10 h-10 rounded-full mx-2 bg-purple-500">
+    </div>
+  </div>
+
+  <div #status class="status mt-4 text-sm text-gray-400">
+    {{ statusMessage }}
+  </div>
 </div>
+
+
+
+
