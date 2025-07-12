@@ -16,7 +16,7 @@ export class MoviesService {
     'accept': 'application/json',
     'Authorization': `Bearer ${this.jwt}`
   });
-
+ 
   http = inject(HttpClient);
   
   constructor() { }

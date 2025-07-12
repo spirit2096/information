@@ -1,36 +1,91 @@
-<div class="layout-wrapper bg-gray-900">
-    <div class="grid p-fluid">
-        <div class="col-12 grid p-fluid">
-            <div class="col-12 text-center">
-                <p-card header="Github" class="  h-full " [style]="{backgroundColor: '#000000', height: '100%'}">
-                    <a href="https://github.com/spirit2096"
-                        target="_blank">
-                        <span class="pi pi-github text-6xl"></span>
-                    </a>
-                </p-card>
+<div class="dashboard-fullscreen-wrapper">
+    <div #canvasContainer class="three-container">
+        <!-- Cards de información fijas en las esquinas y centro superior -->
+        <div class="info-cards-container">
+            <!-- GitHub - Arriba Izquierda -->
+            <div class="info-card card-topleft"
+                 [@cardAnimation]="infoCards[0].visible ? 'visible' : 'hidden'"
+                 [class.visible]="infoCards[0].visible"
+                 (click)="onCardClick(infoCards[0])"
+                 [style.cursor]="infoCards[0].link ? 'pointer' : 'default'">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i [class]="infoCards[0].icon"></i>
+                    </div>
+                    <div class="card-text">
+                        <h3>{{ infoCards[0].title }}</h3>
+                        <p>{{ infoCards[0].content }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Artículo - Arriba Derecha -->
+            <div class="info-card card-topright"
+                 [@cardAnimation]="infoCards[2].visible ? 'visible' : 'hidden'"
+                 [class.visible]="infoCards[2].visible"
+                 (click)="onCardClick(infoCards[2])"
+                 [style.cursor]="infoCards[2].link ? 'pointer' : 'default'">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i [class]="infoCards[2].icon"></i>
+                    </div>
+                    <div class="card-text">
+                        <h3>{{ infoCards[2].title }}</h3>
+                        <p>{{ infoCards[2].content }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reconocimiento - Abajo Izquierda -->
+            <div class="info-card card-bottomleft"
+                 [@cardAnimation]="infoCards[1].visible ? 'visible' : 'hidden'"
+                 [class.visible]="infoCards[1].visible"
+                 (click)="onCardClick(infoCards[1])"
+                 [style.cursor]="infoCards[1].link ? 'pointer' : 'default'">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i [class]="infoCards[1].icon"></i>
+                    </div>
+                    <div class="card-text">
+                        <h3>{{ infoCards[1].title }}</h3>
+                        <p>{{ infoCards[1].content }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entrevista - Abajo Derecha -->
+            <div class="info-card card-bottomright"
+                 [@cardAnimation]="infoCards[3].visible ? 'visible' : 'hidden'"
+                 [class.visible]="infoCards[3].visible"
+                 (click)="onCardClick(infoCards[3])"
+                 [style.cursor]="infoCards[3].link ? 'pointer' : 'default'">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i [class]="infoCards[3].icon"></i>
+                    </div>
+                    <div class="card-text">
+                        <h3>{{ infoCards[3].title }}</h3>
+                        <p>{{ infoCards[3].content }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacto - Centro Superior -->
+            <div class="info-card card-topcenter"
+                 [@cardAnimation]="infoCards[4].visible ? 'visible' : 'hidden'"
+                 [class.visible]="infoCards[4].visible"
+                 (click)="onCardClick(infoCards[4])"
+                 [style.cursor]="infoCards[4].link ? 'pointer' : 'default'">
+                <div class="card-content">
+                    <div class="card-icon">
+                        <i [class]="infoCards[4].icon"></i>
+                    </div>
+                    <div class="card-text">
+                        <h3>{{ infoCards[4].title }}</h3>
+                        <p>{{ infoCards[4].content }}</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-12 md:col-6 lg:col-4 ">
-            <p-card header="Reconocimiento"   [style]="{backgroundColor: '#000000', height: '100%'}">
-                <img src="assets/images/reco-tec.jpeg" alt="Imagen clickeable" >
-            </p-card>
-        </div>
-        <div class="col-12 md:col-6 lg:col-4">
-            <p-card header="Artículo de Investigación"   [style]="{backgroundColor: '#000000', height: '100%'}">
-                <a href="https://revista-agroproductividad.org/index.php/agroproductividad/article/view/1937"
-                    target="_blank">
-                    <img src="assets/images/portada-ai.png" alt="Imagen clickeable" class="w-full h-full cursor-pointer">
-                </a>
-            </p-card>
-        </div>
-        <div class="col-12 md:col-6 lg:col-4">
-            <p-card header="Entrevista para Terranos conCiencia" class="  h-full " [style]="{backgroundColor: '#000000', height: '100%'}">
-                <a href="https://www.youtube.com/watch?v=3wQfcueKy4k"
-                    target="_blank">
-                    <img src="assets/images/entrevista2.png" alt="Imagen clickeable" class="w-full h-full cursor-pointer">
-                </a>
-            </p-card>
-        </div>
-       
     </div>
 </div>

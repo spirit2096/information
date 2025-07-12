@@ -1,34 +1,221 @@
-:host {
-  display: block;
-  min-height: 100vh;
-  width: 100%;
-}
-
-.layout-wrapper {
-  min-height: 100vh;
-  padding: 1rem;
-}
-
-.grid {
+html, body {
+  height: 100%;
   margin: 0;
-  min-height: 100%;
+  padding: 0;
 }
 
-.p-card {
-  margin-bottom: 1rem;
+.dashboard-fullscreen-wrapper {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #2a2a2a;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.three-container {
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.info-cards-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.info-card {
+  position: absolute;
+  pointer-events: auto;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  min-width: 220px;
+  max-width: 350px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
   
-  ::ng-deep .p-card-body {
-    padding: 1rem;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    border-color: rgba(255, 255, 255, 0.2);
   }
   
-  ::ng-deep .p-card-content {
-    padding: 0;
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  &:not(.visible) {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.card-topleft {
+  top: 32px;
+  left: 32px;
+}
+
+.card-topright {
+  top: 32px;
+  right: 32px;
+}
+
+.card-bottomleft {
+  bottom: 32px;
+  left: 32px;
+}
+
+.card-bottomright {
+  bottom: 32px;
+  right: 32px;
+}
+
+.card-topcenter {
+  top: 16px;
+  left: 43%;
+  transform: translateX(-50%);
+  z-index: 20;
+  max-width: 260px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-icon {
+  flex-shrink: 0;
+  
+  i {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+  }
+}
+
+.card-text {
+  flex: 1;
+  
+  h3 {
+    margin: 0 0 8px 0;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  p {
+    margin: 0;
+    color: #cccccc;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Efectos de brillo para las cards
+.info-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transition: left 0.5s;
+}
+
+.info-card:hover::before {
+  left: 100%;
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .info-card {
+    min-width: 250px;
+    max-width: 300px;
+    padding: 15px;
+  }
+  
+  .card-icon i {
+    font-size: 2rem;
+  }
+  
+  .card-text h3 {
+    font-size: 1rem;
+  }
+  
+  .card-text p {
+    font-size: 0.8rem;
+  }
+}
+
+// Responsive para 5 cards bien distribuidas en móvil
+@media (max-width: 900px) {
+  .info-card {
+    min-width: 120px;
+    max-width: 180px;
+    padding: 8px;
+  }
+  .card-topleft {
+    top: 10px;
+    left: 10px;
+    right: auto;
+    bottom: auto;
+    transform: none;
+  }
+  .card-topright {
+    top: 10px;
+    right: 10px;
+    left: auto;
+    bottom: auto;
+    transform: none;
+  }
+  .card-bottomleft {
+    bottom: 10px;
+    left: 10px;
+    right: auto;
+    top: auto;
+    transform: none;
+  }
+  .card-bottomright {
+    bottom: 10px;
+    right: 10px;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+  .card-topcenter {
+    top: 6px;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translateX(-50%);
+    max-width: 150px;
+  }
 }

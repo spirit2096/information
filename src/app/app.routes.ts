@@ -4,6 +4,7 @@ import { MoviesComponent } from './components/movies/movies.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { FormsComponent } from './components/forms/forms.component';
 import DashboardComponent from './components/dashboard/dashboard.component';
+import { RecognitionComponent } from './components/recognition/recognition.component';
 export const routes: Routes = [
     // {
     //     path: 'test',
@@ -18,6 +19,10 @@ export const routes: Routes = [
     {
         path: '',
         component: DashboardComponent,
+    },
+    {
+        path: 'reconocimiento',
+        component: RecognitionComponent,
     },
     {
         path: '**',
