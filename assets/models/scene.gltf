@@ -1,0 +1,695 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15920,
+      "max": [
+        0.36196398735046387,
+        0.8817930221557617,
+        2.2850100994110107
+      ],
+      "min": [
+        -0.36196398735046387,
+        -1.7972830533981323,
+        0.006182000041007996
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 191040,
+      "componentType": 5126,
+      "count": 15920,
+      "max": [
+        0.9999579191207886,
+        0.999534547328949,
+        0.9999825954437256
+      ],
+      "min": [
+        -0.9999579191207886,
+        -0.9998515844345093,
+        -0.9999998807907104
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15920,
+      "max": [
+        0.7586950063705444,
+        0.9997419714927673
+      ],
+      "min": [
+        0.0002579999854788184,
+        0.0002579999854788184
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 73488,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 382080,
+      "componentType": 5126,
+      "count": 1390,
+      "max": [
+        0.14733800292015076,
+        -1.4618430137634277,
+        1.9614880084991455
+      ],
+      "min": [
+        -0.14733800292015076,
+        -1.5777440071105957,
+        1.846498966217041
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 398760,
+      "componentType": 5126,
+      "count": 1390,
+      "max": [
+        0.9984182119369507,
+        0.9989853501319885,
+        0.9974988102912903
+      ],
+      "min": [
+        -0.9984182119369507,
+        -0.9951797127723694,
+        -0.9975014328956604
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 127360,
+      "componentType": 5126,
+      "count": 1390,
+      "max": [
+        1.5978080034255981,
+        0.6192309856414795
+      ],
+      "min": [
+        1.3042110204696655,
+        0.3256340026855469
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 293952,
+      "componentType": 5125,
+      "count": 8064,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 415440,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        0.15943700075149536,
+        -1.514917016029358,
+        1.9382630586624146
+      ],
+      "min": [
+        -0.15943700075149536,
+        -1.601951003074646,
+        1.8583999872207642
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 418800,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        0.9809877276420593,
+        0.952127993106842,
+        0.9963142275810242
+      ],
+      "min": [
+        -0.9809877276420593,
+        -0.8694412708282471,
+        -0.9791681170463562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 138480,
+      "componentType": 5126,
+      "count": 280,
+      "max": [
+        0.8906440138816833,
+        0.7662109732627869
+      ],
+      "min": [
+        0.1189579963684082,
+        0.23330999910831451
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 326208,
+      "componentType": 5125,
+      "count": 1296,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 422160,
+      "componentType": 5126,
+      "count": 5160,
+      "max": [
+        0.05310099944472313,
+        -1.6312600374221802,
+        1.6277010440826416
+      ],
+      "min": [
+        -0.05310099944472313,
+        -1.738785982131958,
+        1.520913004875183
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 484080,
+      "componentType": 5126,
+      "count": 5160,
+      "max": [
+        0.9999903440475464,
+        0.9986189603805542,
+        0.9976792931556702
+      ],
+      "min": [
+        -0.9999899864196777,
+        -0.999775230884552,
+        -0.9954869747161865
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 140720,
+      "componentType": 5126,
+      "count": 5160,
+      "max": [
+        2.7569169998168945,
+        0.8554589748382568
+      ],
+      "min": [
+        2.1217360496520996,
+        0.12890000641345978
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 331392,
+      "componentType": 5125,
+      "count": 28560,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 546000,
+      "componentType": 5126,
+      "count": 5954,
+      "max": [
+        0.1749899983406067,
+        1.4215240478515625,
+        2.1308529376983643
+      ],
+      "min": [
+        -0.1749899983406067,
+        -1.6634010076522827,
+        0.3960059881210327
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 617448,
+      "componentType": 5126,
+      "count": 5954,
+      "max": [
+        0.9998118281364441,
+        0.9994421005249023,
+        0.9996389746665955
+      ],
+      "min": [
+        -0.9998118281364441,
+        -0.9999613761901855,
+        -0.9999791383743286
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 182000,
+      "componentType": 5126,
+      "count": 5954,
+      "max": [
+        0.9800909757614136,
+        0.98996502161026
+      ],
+      "min": [
+        0.7976369857788086,
+        0.019085999578237534
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 445632,
+      "componentType": 5125,
+      "count": 32652,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 688896,
+      "componentType": 5126,
+      "count": 9351,
+      "max": [
+        0.0725409984588623,
+        -0.4759019911289215,
+        2.1409668922424316
+      ],
+      "min": [
+        -0.3578430116176605,
+        -1.4468239545822144,
+        1.0611350536346436
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 801108,
+      "componentType": 5126,
+      "count": 9351,
+      "max": [
+        0.9999207258224487,
+        0.9996857047080994,
+        0.999871015548706
+      ],
+      "min": [
+        -0.9999395608901978,
+        -0.9999336004257202,
+        -0.9997255206108093
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 229632,
+      "componentType": 5126,
+      "count": 9351,
+      "max": [
+        0.9668369889259338,
+        0.9713469743728638
+      ],
+      "min": [
+        0.809482991695404,
+        0.011460999958217144
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 576240,
+      "componentType": 5125,
+      "count": 51552,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "DimaAlexandrin20 (https://sketchfab.com/aleksandrindmitrij24)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/spirit-untamed-horse-3d-ef4a2dd781af47a09093bbeb0dfb31bb",
+      "title": "Spirit Untamed Horse 3D"
+    },
+    "generator": "Sketchfab-16.60.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 782448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 304440,
+      "byteOffset": 782448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 913320,
+      "byteOffset": 1086888,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2000208,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/Spirit_baseColor.png"
+    },
+    {
+      "uri": "textures/Spirit_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Spirit.2_baseColor.png"
+    },
+    {
+      "uri": "textures/Spirit.eye_baseColor.png"
+    },
+    {
+      "uri": "textures/Spirit_Hair_baseColor.png"
+    },
+    {
+      "uri": "textures/Spirit_Hair_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Spirit_eye_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.8613389127415827
+        }
+      },
+      "name": "Spirit",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Spirit.2",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.48532154316502674
+        }
+      },
+      "name": "Spirit.eye",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0416243467225319
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 1.0
+        }
+      },
+      "name": "Spirit_Hair",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicFactor": 0.4549975617475625,
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Spirit_eye",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8011823178082373
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_5",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "name": "Spirit Untamed Horse.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 3,
+      "name": "Object_5"
+    },
+    {
+      "mesh": 4,
+      "name": "Object_6"
+    },
+    {
+      "mesh": 5,
+      "name": "Object_7"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    }
+  ]
+}
