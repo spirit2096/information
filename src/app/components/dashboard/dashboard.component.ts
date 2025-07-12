@@ -64,7 +64,7 @@ export default class DashboardComponent implements OnInit, AfterViewInit {
     {
       id: 3,
       title: 'Artículo de Investigación',
-      content: 'Publicación sobre Inteligencia Artificial',
+      content: 'Publicación sobre el sistema web desarrollado durante la maestria',
       icon: 'pi pi-file-pdf',
       link: 'https://revista-agroproductividad.org/index.php/agroproductividad/article/view/1937',
       visible: false
